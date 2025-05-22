@@ -1,8 +1,8 @@
 ###### Turları Getir (Fetch Tours)
-Ben Tours bileşeninde, URL’den tur verilerini fetch API ile çekiyorum. Veriler yüklenirken kullanıcıya bir yükleniyor göstergesi veya mesajı göstermek için Loading bileşenini kullanıyorum.
+Tours bileşeninde, URL’den tur verilerini fetch API ile çekiyorum. Veriler yüklenirken kullanıcıya bir yükleniyor göstergesi veya mesajı göstermek için Loading bileşenini kullandım.
 
 ###### Turları Göster (Render Tours)
-Veriler yüklendiğinde, bunları state’ime kaydediyorum. Sonra tours dizisi üzerinde map yaparak her bir tur için bir Tour bileşeni render ediyorum. Her Tour bileşenine turun id, image, info, name ve price gibi bilgilerini props olarak gönderiyorum.
+Veriler yüklendiğinde, bunları state’ime kaydettim. Sonra tours dizisi üzerinde map yaparak her bir tur için bir Tour bileşeni render ettim. Her Tour bileşenine tour un id, image, info, name ve price gibi bilgilerini props olarak gönderdim.
 
 ###### Turu Kaldır (Remove Tour)
 Her Tour bileşenine bir “tur kaldır” butonu ekledim. Bu butona tıklandığında, ilgili turu state’imden çıkarıyorum ve böylece listeden kaldırıyorum.
